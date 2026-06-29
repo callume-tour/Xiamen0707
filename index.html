@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>斗南順安宮湄洲聖二媽-廈門四日</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            incense: "#D94A2B",
+            cream: "#F7F1E8",
+            gold: "#D4AF37",
+            ink: "#332621",
+            paper: "#FFF9F1"
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      color: #332621;
+      background:
+        radial-gradient(circle, rgba(217,74,43,.16) 1.6px, transparent 1.8px) 0 0 / 22px 22px,
+        radial-gradient(circle, rgba(212,175,55,.22) 1.4px, transparent 1.8px) 11px 11px / 22px 22px,
+        #F7F1E8;
+    }
+    .k-card {
+      border-radius: 26px;
+      background: rgba(255, 249, 241, .96);
+      box-shadow: 0 14px 36px rgba(73, 45, 28, .13);
+    }
+    .soft-card {
+      border-radius: 22px;
+      background: #F7F1E8;
+    }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      border-radius: 999px;
+      padding: .22rem .58rem;
+      font-size: .72rem;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 1rem;
+      top: .75rem;
+      bottom: .75rem;
+      width: 2px;
+      background: linear-gradient(#D94A2B, #D4AF37);
+      opacity: .45;
+    }
+    .dot {
+      position: absolute;
+      left: .55rem;
+      margin-top: .35rem;
+      width: .9rem;
+      height: .9rem;
+      border-radius: 999px;
+      background: #D94A2B;
+      border: 3px solid #FFF9F1;
+      box-shadow: 0 0 0 2px rgba(217, 74, 43, .25);
+    }
+    .bottom-nav {
+      background: rgba(255, 249, 241, .88);
+      backdrop-filter: blur(14px);
+    }
+    details summary {
+      cursor: pointer;
+      list-style: none;
+    }
+    details summary::-webkit-details-marker {
+      display: none;
+    }
+    details[open] .chevron {
+      transform: rotate(180deg);
+    }
+    .check-item input {
+      accent-color: #D94A2B;
+    }
+  </style>
+</head>
+
+<body class="pb-28">
+  <header id="home" class="mx-auto max-w-md px-4 pt-5">
+    <section class="relative overflow-hidden rounded-[30px] bg-incense p-6 text-cream shadow-xl">
+      <div class="absolute -right-10 -top-10 h-36 w-36 rounded-full bg-gold/30"></div>
+      <div class="absolute -bottom-12 -left-12 h-44 w-44 rounded-full bg-cream/18"></div>
+
+      <div class="relative">
+        <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-cream/18 px-3 py-1 text-sm font-black">
+          <i class="fa-solid fa-location-dot text-gold"></i>
+          莆田 · 湄洲島 · 廈門
+        </div>
+
+        <h1 class="text-3xl font-black leading-tight">
+          斗南順安宮<br />
+          湄洲聖二媽-廈門四日
+        </h1>
+
+        <p class="mt-3 text-sm leading-6 text-cream/90">
+          2026/07/07 至 2026/07/10，恭迎神尊、湄洲祖廟參拜、廈門人文巡禮與小吃散策。
+        </p>
+
+        <div class="mt-5 grid grid-cols-2 gap-3">
+          <div class="rounded-2xl bg-cream/16 p-3">
+            <p class="text-xs text-cream/75">去程</p>
+            <p class="mt-1 text-sm font-black">台中 → 金門 → 廈門</p>
+          </div>
+          <div class="rounded-2xl bg-cream/16 p-3">
+            <p class="text-xs text-cream/75">回程</p>
+            <p class="mt-1 text-sm font-black">廈門 → 金門 → 台中</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="mx-auto max-w-md px-4">
+    <section id="traffic" class="k-card mt-5 p-5">
+      <div class="mb-4 flex items-center justify-between">
+        <div>
+          <p class="text-xs font-black uppercase text-incense">Traffic</p>
+          <h2 class="mt-1 text-xl font-black">來回飛機 / 船班</h2>
+        </div>
+        <i class="fa-solid fa-plane-departure text-2xl text-gold"></i>
+      </div>
+
+      <div class="space-y-3">
+        <div class="soft-card p-4">
+          <div class="mb-2 flex flex-wrap gap-2">
+            <span class="tag bg-blue-100 text-blue-700"><i class="fa-solid fa-plane"></i>飛機</span>
+            <span class="tag bg-red-100 text-incense">AE 767</span>
+          </div>
+          <h3 class="font-black">台中 → 金門</h3>
+          <p class="mt-1 text-sm leading-6">2026/07/07，13:35 起飛。</p>
+        </div>
+
+        <div class="soft-card p-4">
+          <div class="mb-2 flex flex-wrap gap-2">
+            <span class="tag bg-cyan-100 text-cyan-700"><i class="fa-solid fa-ship"></i>船班</span>
+            <span class="tag bg-orange-100 text-orange-700">馬可波羅</span>
+          </div>
+          <h3 class="font-black">金門 → 廈門五通碼頭</h3>
+          <p class="mt-1 text-sm leading-6">2026/07/07，14:30 出發，15:00 抵達。</p>
+        </div>
+
+        <div class="soft-card p-4">
+          <div class="mb-2 flex flex-wrap gap-2">
+            <span class="tag bg-cyan-100 text-cyan-700"><i class="fa-solid fa-ship"></i>船班</span>
+            <span class="tag bg-orange-100 text-orange-700">新東方</span>
+          </div>
+          <h3 class="font-black">廈門 → 金門</h3>
+          <p class="mt-1 text-sm leading-6">2026/07/10，10:00 出發，10:30 抵達。</p>
+        </div>
+
+        <div class="soft-card p-4">
+          <div class="mb-2 flex flex-wrap gap-2">
+            <span class="tag bg-blue-100 text-blue-700"><i class="fa-solid fa-plane"></i>飛機</span>
+            <span class="tag bg-red-100 text-incense">AE 766</span>
+          </div>
+          <h3 class="font-black">金門 → 台中</h3>
+          <p class="mt-1 text-sm leading-6">2026/07/10，13:15 起飛，約 14:15 抵達。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="hotel" class="k-card mt-5 p-5">
+      <div class="mb-4 flex items-center justify-between">
+        <div>
+          <p class="text-xs font-black uppercase text-incense">Hotel</p>
+          <h2 class="mt-1 text-xl font-black">酒店與神尊放置</h2>
+        </div>
+        <i class="fa-solid fa-hotel text-2xl text-gold"></i>
+      </div>
+
+      <div class="space-y-3 text-sm leading-6">
+        <div class="soft-card p-4">
+          <div class="mb-2 flex flex-wrap gap-2">
+            <span class="tag bg-purple-100 text-purple-700"><i class="fa-solid fa-hotel"></i>酒店</span>
+            <span class="tag bg-gold/25 text-[#8a6a10]"><i class="fa-solid fa-hands-praying"></i>神尊放置</span>
+          </div>
+          <h3 class="font-black">莆田三迪希爾頓逸林酒店</h3>
+          <p class="mt-1">7/7 入住。神尊房安排於前臺旁一間小屋，方便團員抵達後安座、參禮與統一管理。</p>
+        </div>
+
+        <div class="soft-card p-4">
+          <div class="mb-2 flex flex-wrap gap-2">
+            <span class="tag bg-purple-100 text-purple-700"><i class="fa-solid fa-hotel"></i>酒店</span>
+            <span class="tag bg-gold/25 text-[#8a6a10]"><i class="fa-solid fa-hands-praying"></i>神尊放置</span>
+          </div>
+          <h3 class="font-black">廈門集美杏林灣希爾頓歡朋酒店</h3>
+          <p class="mt-1">7/8、7/9 入住。神尊房安排於會議室，空間較完整，適合團體參拜、供桌整理與隨行人員輪值照看。</p>
+        </div>
+
+        <div class="rounded-2xl bg-incense/10 p-4">
+          <p class="font-black text-incense">神尊安奉提醒</p>
+          <p class="mt-1">進房後先確認桌面穩固、動線清楚、避免雜物堆放。酒店多禁止明火，建議使用鮮花、供果、瓶裝水與 LED 燈，並由固定人員負責早晚巡視。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="manual" class="k-card mt-5 p-5">
+      <div class="mb-4 flex items-center justify-between">
+        <div>
+          <p class="text-xs font-black uppercase text-incense">Handbook</p>
+          <h2 class="mt-1 text-xl font-black">出團手冊資訊</h2>
+        </div>
+        <i class="fa-solid fa-book-open text-2xl text-gold"></i>
+      </div>
+
+      <div class="space-y-3">
+        <div class="soft-card p-4">
+          <div class="mb-3 flex flex-wrap gap-2">
+            <span class="tag bg-blue-100 text-blue-700"><i class="fa-solid fa-bus"></i>遊覽車</span>
+            <span class="tag bg-orange-100 text-orange-700"><i class="fa-solid fa-plane-arrival"></i>機場接送</span>
+          </div>
+          <h3 class="font-black">集合地點和時間</h3>
+          <div class="mt-3 space-y-2 text-sm leading-6">
+            <div class="flex items-center justify-between rounded-2xl bg-paper px-3 py-2">
+              <span class="font-black text-incense">第一站</span>
+              <span>07:00 斗南順安宮</span>
+            </div>
+            <div class="flex items-center justify-between rounded-2xl bg-paper px-3 py-2">
+              <span class="font-black text-incense">第二站</span>
+              <span>07:10 尚讚檳榔</span>
+            </div>
+            <div class="flex items-center justify-between rounded-2xl bg-paper px-3 py-2">
+              <span class="font-black text-incense">第三站</span>
+              <span>07:15 正林車業</span>
+            </div>
+          </div>
+          <div class="mt-3 rounded-2xl bg-incense/10 p-3 text-sm leading-6">
+            <p><span class="font-black text-incense">服務人員：</span>美美 0981068001</p>
+            <p><span class="font-black text-incense">接機名稱：</span>斗南順安宮</p>
+          </div>
+        </div>
+
+        <details class="soft-card p-4">
+          <summary class="flex items-center justify-between gap-3">
+            <div>
+              <p class="text-xs font-black uppercase text-incense">Rooming List</p>
+              <h3 class="mt-1 font-black">分房表</h3>
+            </div>
+            <i class="chevron fa-solid fa-chevron-down text-incense transition-transform"></i>
+          </summary>
+          <div class="mt-4 space-y-3 text-sm">
+            <div class="rounded-2xl bg-paper p-3">
+              <p class="font-black text-incense">雙人房（一大）</p>
+              <p class="mt-1">1 姚信源、2 黃小玲</p>
+            </div>
+            <div class="rounded-2xl bg-paper p-3">
+              <p class="font-black text-incense">雙人房（兩小）</p>
+              <p class="mt-1">3 李芳先、4 楊曉方</p>
+            </div>
+            <div class="rounded-2xl bg-paper p-3">
+              <p class="font-black text-incense">雙人房（兩小）</p>
+              <p class="mt-1">5 蘇子萱、6 蘇子涵</p>
+            </div>
+            <div class="rounded-2xl bg-paper p-3">
+              <p class="font-black text-incense">雙人房（兩小）</p>
+              <p class="mt-1">7 林琇雯、8 林琇婷</p>
+            </div>
+            <div class="rounded-2xl bg-paper p-3">
+              <p class="font-black text-incense">雙人房（兩小）</p>
+              <p class="mt-1">9 林杏純、10 林貽塗</p>
+            </div>
+            <div class="rounded-2xl bg-paper p-3">
+              <p class="font-black text-incense">三人房</p>
+              <p class="mt-1">11 吳泊松、12 吳泓侑、13 吳建勳</p>
+            </div>
+            <div class="rounded-2xl bg-paper p-3">
+              <p class="font-black text-incense">單人房</p>
+              <p class="mt-1">14 張建福、15 林信助</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="soft-card p-4">
+          <summary class="flex items-center justify-between gap-3">
+            <div>
+              <p class="text-xs font-black uppercase text-incense">Notice</p>
+              <h3 class="mt-1 font-black">注意事項</h3>
+            </div>
+            <i class="chevron fa-solid fa-chevron-down text-incense transition-transform"></i>
+          </summary>
+          <div class="mt-4 space-y-2 text-sm leading-6">
+            <p class="rounded-2xl bg-paper p-3">請依集合時間提早 10 分鐘抵達，搭車點停留時間短，逾時會影響後續機場報到。</p>
+            <p class="rounded-2xl bg-paper p-3">護照、台胞證、身分證、機票與船票資料請隨身保管，勿放入托運行李。</p>
+            <p class="rounded-2xl bg-paper p-3">進出碼頭、機場與景區時請跟緊團體，聽從領隊與服務人員指示。</p>
+            <p class="rounded-2xl bg-paper p-3">神尊駐駕與參拜時保持肅靜，供品、香花與神尊用品由指定人員統一整理。</p>
+            <p class="rounded-2xl bg-paper p-3">酒店多禁止明火，神尊房以鮮花、供果、瓶裝水與 LED 燈為主。</p>
+            <p class="rounded-2xl bg-paper p-3">7 月天氣炎熱且易有午後陣雨，請補充水分、防曬並攜帶輕便雨具。</p>
+            <p class="rounded-2xl bg-paper p-3">用餐如有素食、過敏或特殊飲食需求，請提早告知服務人員。</p>
+          </div>
+        </details>
+
+        <details class="soft-card p-4">
+          <summary class="flex items-center justify-between gap-3">
+            <div>
+              <p class="text-xs font-black uppercase text-incense">Checklist</p>
+              <h3 class="mt-1 font-black">出門攜帶物品</h3>
+            </div>
+            <i class="chevron fa-solid fa-chevron-down text-incense transition-transform"></i>
+          </summary>
+          <div class="mt-4 grid gap-2 text-sm">
+            <label class="check-item flex items-center gap-3 rounded-2xl bg-paper p-3"><input type="checkbox" />護照</label>
+            <label class="check-item flex items-center gap-3 rounded-2xl bg-paper p-3"><input type="checkbox" />台胞證</label>
+            <label class="check-item flex items-center gap-3 rounded-2xl bg-paper p-3"><input type="checkbox" />身分證 / 健保卡</label>
+            <label class="check-item flex items-center gap-3 rounded-2xl bg-paper p-3"><input type="checkbox" />手機、充電器、行動電源</label>
+            <label class="check-item flex items-center gap-3 rounded-2xl bg-paper p-3"><input type="checkbox" />人民幣 / 台幣 / 信用卡</label>
+            <label class="check-item flex items-center gap-3 rounded-2xl bg-paper p-3"><input type="checkbox" />常用藥品、暈船藥、腸胃藥</label>
+            <label class="check-item flex items-center gap-3 rounded-2xl bg-paper p-3"><input type="checkbox" />防曬用品、帽子、太陽眼鏡</label>
+            <label class="check-item flex items-center gap-3 rounded-2xl bg-paper p-3"><input type="checkbox" />雨傘或輕便雨衣</label>
+            <label class="check-item flex items-center gap-3 rounded-2xl bg-paper p-3"><input type="checkbox" />換洗衣物、舒適鞋、薄外套</label>
+            <label class="check-item flex items-center gap-3 rounded-2xl bg-paper p-3"><input type="checkbox" />盥洗用品與個人衛生用品</label>
+            <label class="check-item flex items-center gap-3 rounded-2xl bg-paper p-3"><input type="checkbox" />神尊相關用品、供品或指定物品</label>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section id="days" class="mt-5 space-y-5">
+      <div class="k-card p-4">
+        <p class="mb-3 text-xs font-black uppercase text-incense">Daily Plan</p>
+        <div class="grid grid-cols-4 gap-2 text-center text-xs font-black">
+          <a href="#day1" class="rounded-2xl bg-cream px-2 py-3 text-ink shadow-sm">D1<br />莆田</a>
+          <a href="#day2" class="rounded-2xl bg-cream px-2 py-3 text-ink shadow-sm">D2<br />湄洲</a>
+          <a href="#day3" class="rounded-2xl bg-cream px-2 py-3 text-ink shadow-sm">D3<br />廈門</a>
+          <a href="#day4" class="rounded-2xl bg-cream px-2 py-3 text-ink shadow-sm">D4<br />返程</a>
+        </div>
+      </div>
+
+      <article id="day1" class="k-card p-5">
+        <p class="text-xs font-black uppercase text-incense">Day 1 · 7/7</p>
+        <h2 class="mt-1 text-2xl font-black">台中 / 金門 / 廈門 / 莆田</h2>
+
+        <div class="timeline relative mt-5 space-y-4 pl-10">
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <span class="tag bg-blue-100 text-blue-700"><i class="fa-solid fa-ship"></i>交通</span>
+            <h3 class="mt-3 font-black">馬可波羅 14:30 / 15:00</h3>
+            <p class="mt-1 text-sm leading-6">抵達廈門五通碼頭後接客，後前往莆田。</p>
+            <p class="mt-2 text-xs leading-5 text-ink/65">導遊秘笈：廈門是閩南海港城市，五通碼頭銜接金門往來，見證兩岸小三通旅運生活。</p>
+          </div>
+
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <span class="tag bg-yellow-100 text-yellow-700"><i class="fa-solid fa-landmark"></i>景點</span>
+            <h3 class="mt-3 font-black">賢良港（媽祖誕生地）駐駕</h3>
+            <p class="mt-1 text-sm leading-6">前往賢良港駐駕，安排神尊安奉與團員參禮。</p>
+            <p class="mt-2 text-xs leading-5 text-ink/65">導遊秘笈：賢良港被視為媽祖林默娘的出生地之一，是媽祖信仰溯源的重要地點，具有濃厚海洋信仰與家族聚落記憶。</p>
+          </div>
+
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <div class="flex flex-wrap gap-2">
+              <span class="tag bg-purple-100 text-purple-700"><i class="fa-solid fa-hotel"></i>酒店</span>
+              <span class="tag bg-gold/25 text-[#8a6a10]"><i class="fa-solid fa-hands-praying"></i>神尊放置</span>
+            </div>
+            <h3 class="mt-3 font-black">莆田三迪希爾頓逸林酒店</h3>
+            <p class="mt-1 text-sm leading-6">神尊房在前臺旁一間小屋，方便抵達後安座、守護與隔日辭駕動線安排。</p>
+          </div>
+        </div>
+
+        <div class="mt-5 rounded-2xl bg-cream p-4 text-sm">
+          <p class="font-black text-incense">餐食</p>
+          <p class="mt-1">午餐：金門風味餐。晚餐：莆田風味。</p>
+        </div>
+      </article>
+
+      <article id="day2" class="k-card p-5">
+        <p class="text-xs font-black uppercase text-incense">Day 2 · 7/8</p>
+        <h2 class="mt-1 text-2xl font-black">莆田 / 湄洲島 / 廈門</h2>
+
+        <div class="timeline relative mt-5 space-y-4 pl-10">
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <span class="tag bg-yellow-100 text-yellow-700"><i class="fa-solid fa-hands-praying"></i>景點</span>
+            <h3 class="mt-3 font-black">賢良港（恭請神尊〜辭駕）</h3>
+            <p class="mt-1 text-sm leading-6">於賢良港恭請神尊，完成辭駕儀節後，隨團衛駕前往湄洲島。</p>
+            <p class="mt-2 text-xs leading-5 text-ink/65">導遊秘笈：媽祖信仰重視「請神、駐蹕、回駕」的儀節秩序，代表信眾與神明同行、共赴祖廟謁祖。</p>
+          </div>
+
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <div class="flex flex-wrap gap-2">
+              <span class="tag bg-blue-100 text-blue-700"><i class="fa-solid fa-ferry"></i>交通</span>
+              <span class="tag bg-green-100 text-green-700"><i class="fa-solid fa-person-walking"></i>活動</span>
+            </div>
+            <h3 class="mt-3 font-black">湄洲島</h3>
+            <p class="mt-1 text-sm leading-6">含渡輪、環保車、媽祖祖廟。神尊駐駕參拜後，恭請神尊回駕。</p>
+            <p class="mt-2 text-xs leading-5 text-ink/65">導遊秘笈：湄洲島是媽祖信仰祖庭所在地，祖廟依山臨海，展現閩南海民敬天護航、祈求平安的精神核心。</p>
+          </div>
+
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <span class="tag bg-yellow-100 text-yellow-700"><i class="fa-solid fa-water"></i>景點</span>
+            <h3 class="mt-3 font-black">園博苑（含往返直達景交）</h3>
+            <p class="mt-1 text-sm leading-6">安排園博苑參觀，含往返直達景交，節省步行移動時間。</p>
+            <p class="mt-2 text-xs leading-5 text-ink/65">導遊秘笈：園博苑以園林博覽為核心，匯集不同地域的造園語彙，也展現集美水岸城市規劃與休閒景觀。</p>
+          </div>
+
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <span class="tag bg-yellow-100 text-yellow-700"><i class="fa-solid fa-water"></i>景點</span>
+            <h3 class="mt-3 font-black">十裏長堤</h3>
+            <p class="mt-1 text-sm leading-6">傍晚安排海岸長堤散步，適合看海風景與團體合影。</p>
+            <p class="mt-2 text-xs leading-5 text-ink/65">導遊秘笈：集美海岸一帶與陳嘉庚故里文化相連，海堤、學村與僑鄉建築共同形塑廈門北岸風貌。</p>
+          </div>
+
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <div class="flex flex-wrap gap-2">
+              <span class="tag bg-purple-100 text-purple-700"><i class="fa-solid fa-hotel"></i>酒店</span>
+              <span class="tag bg-gold/25 text-[#8a6a10]"><i class="fa-solid fa-hands-praying"></i>神尊放置</span>
+            </div>
+            <h3 class="mt-3 font-black">廈門集美杏林灣希爾頓歡朋酒店</h3>
+            <p class="mt-1 text-sm leading-6">神尊房在會議室，空間較完整，適合安奉、參禮與隨行人員輪值照看。</p>
+          </div>
+        </div>
+
+        <div class="mt-5 rounded-2xl bg-cream p-4 text-sm">
+          <p class="font-black text-incense">餐食</p>
+          <p class="mt-1">午餐：湄洲風味。晚餐：足浴 1H + 自助餐。</p>
+        </div>
+      </article>
+
+      <article id="day3" class="k-card p-5">
+        <p class="text-xs font-black uppercase text-incense">Day 3 · 7/9</p>
+        <h2 class="mt-1 text-2xl font-black">廈門城市人文巡禮</h2>
+
+        <div class="timeline relative mt-5 space-y-4 pl-10">
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <span class="tag bg-yellow-100 text-yellow-700"><i class="fa-solid fa-landmark"></i>景點</span>
+            <h3 class="mt-3 font-black">鼓浪嶼、萬國建築博覽、龍頭路</h3>
+            <p class="mt-1 text-sm leading-6">欣賞鼓浪嶼建築群，龍頭路自由散步與品嘗小吃。</p>
+            <p class="mt-2 text-xs leading-5 text-ink/65">導遊秘笈：鼓浪嶼因近代租界與僑民生活而形成多國建築景觀，被稱為「萬國建築博覽」，也是廈門音樂文化象徵。</p>
+          </div>
+
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <span class="tag bg-yellow-100 text-yellow-700"><i class="fa-solid fa-leaf"></i>景點</span>
+            <h3 class="mt-3 font-black">植物園（網紅扶梯 + 景交）</h3>
+            <p class="mt-1 text-sm leading-6">安排植物園參觀，含網紅扶梯與景交接駁，適合拍攝沙生植物、雨林景觀與城市山景。</p>
+            <p class="mt-2 text-xs leading-5 text-ink/65">導遊秘笈：植物園位於萬石山一帶，既是植物保育基地，也是廈門人日常登山、避暑與親近自然的重要空間。</p>
+          </div>
+
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <div class="flex flex-wrap gap-2">
+              <span class="tag bg-emerald-100 text-emerald-700"><i class="fa-solid fa-bag-shopping"></i>購物</span>
+              <span class="tag bg-rose-100 text-rose-700"><i class="fa-solid fa-utensils"></i>食物</span>
+            </div>
+            <h3 class="mt-3 font-black">中山路步行街</h3>
+            <p class="mt-1 text-sm leading-6">晚間逛騎樓商圈，適合採買餡餅、茶點與閩南伴手禮。</p>
+            <p class="mt-2 text-xs leading-5 text-ink/65">導遊秘笈：中山路是廈門老城商業核心，騎樓立面融合南洋華僑與閩南街屋風格，最能感受港口城市日常。</p>
+          </div>
+
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <div class="flex flex-wrap gap-2">
+              <span class="tag bg-purple-100 text-purple-700"><i class="fa-solid fa-hotel"></i>酒店</span>
+              <span class="tag bg-gold/25 text-[#8a6a10]"><i class="fa-solid fa-hands-praying"></i>神尊放置</span>
+            </div>
+            <h3 class="mt-3 font-black">廈門集美杏林灣希爾頓歡朋酒店</h3>
+            <p class="mt-1 text-sm leading-6">續住同一酒店，神尊房在會議室，方便維持供桌位置與參拜動線。</p>
+          </div>
+        </div>
+
+        <div class="mt-5 rounded-2xl bg-cream p-4 text-sm">
+          <p class="font-black text-incense">餐食</p>
+          <p class="mt-1">午餐：風味餐。晚餐：漁緯港海鮮自助餐（萬達店）。</p>
+        </div>
+      </article>
+
+      <article id="day4" class="k-card p-5">
+        <p class="text-xs font-black uppercase text-incense">Day 4 · 7/10</p>
+        <h2 class="mt-1 text-2xl font-black">廈門 / 金門 / 台中</h2>
+
+        <div class="timeline relative mt-5 space-y-4 pl-10">
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <span class="tag bg-blue-100 text-blue-700"><i class="fa-solid fa-bus"></i>交通</span>
+            <h3 class="mt-3 font-black">早餐後送船</h3>
+            <p class="mt-1 text-sm leading-6">飯店早餐後前往碼頭，搭乘新東方 10:00 / 10:30 返回金門。</p>
+            <p class="mt-2 text-xs leading-5 text-ink/65">導遊秘笈：廈金航線是兩地往來的重要海上通道，旅程雖短，仍建議提早完成通關與行李檢查。</p>
+          </div>
+
+          <div class="dot"></div>
+          <div class="soft-card p-4">
+            <span class="tag bg-blue-100 text-blue-700"><i class="fa-solid fa-plane"></i>交通</span>
+            <h3 class="mt-3 font-black">金門返回台中</h3>
+            <p class="mt-1 text-sm leading-6">搭乘 AE 766，13:15 起飛，約 14:15 抵達台中。</p>
+            <p class="mt-2 text-xs leading-5 text-ink/65">導遊秘笈：金門位於閩南文化圈與台灣航線之間，紅磚聚落、戰地記憶與海上交通，使返程也帶有濃厚地域感。</p>
+          </div>
+        </div>
+
+        <div class="mt-5 rounded-2xl bg-cream p-4 text-sm">
+          <p class="font-black text-incense">餐食</p>
+          <p class="mt-1">午餐：金門風味餐。</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <nav class="fixed inset-x-0 bottom-4 z-50 mx-auto max-w-md px-4">
+    <div class="bottom-nav flex items-center justify-around rounded-full border border-white/80 px-3 py-3 shadow-xl">
+      <a href="#home" class="flex flex-col items-center gap-1 text-xs font-black text-incense">
+        <i class="fa-solid fa-house text-lg"></i>
+        首頁
+      </a>
+      <a href="#traffic" class="flex flex-col items-center gap-1 text-xs font-black text-ink/55">
+        <i class="fa-solid fa-plane text-lg"></i>
+        交通
+      </a>
+      <a href="#manual" class="flex flex-col items-center gap-1 text-xs font-black text-ink/55">
+        <i class="fa-solid fa-book-open text-lg"></i>
+        手冊
+      </a>
+      <a href="#hotel" class="flex flex-col items-center gap-1 text-xs font-black text-ink/55">
+        <i class="fa-solid fa-hotel text-lg"></i>
+        酒店
+      </a>
+      <a href="#days" class="flex flex-col items-center gap-1 text-xs font-black text-ink/55">
+        <i class="fa-solid fa-map-location-dot text-lg"></i>
+        行程
+      </a>
+    </div>
+  </nav>
+
+  <script>
+    document.querySelectorAll(".check-item input").forEach((input, index) => {
+      const key = "shunan-checklist-" + index;
+      input.checked = localStorage.getItem(key) === "true";
+      input.addEventListener("change", () => {
+        localStorage.setItem(key, String(input.checked));
+      });
+    });
+  </script>
+</body>
+</html>
